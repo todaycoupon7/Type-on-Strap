@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/"
+baseurl: ""
 url: "https://todaycoupon7.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
@@ -12,7 +12,7 @@ theme_settings:
   description: 오늘쿠폰 서비스의 개발 블로그입니다.
 
   # Header and footer text
-  header_text: > #two or three lines to describe your site
+  header_text: >
      <p>누구나 손쉽게 쿠폰 서비스를 이용하세요.</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
