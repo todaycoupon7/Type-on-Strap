@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/todaycoupon7"
+baseurl: "/"
 url: "https://todaycoupon7.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
@@ -9,7 +9,7 @@ theme_settings:
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: 오늘쿠폰 서비스의 개발 블로그입니다.
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
