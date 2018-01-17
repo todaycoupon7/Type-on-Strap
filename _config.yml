@@ -1,5 +1,7 @@
 # SITE CONFIGURATION
-baseurl: ""
+title: 오늘쿠폰
+description: 개발 블로그
+# baseurl: ""
 url: "https://todaycoupon7.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
