@@ -59,7 +59,7 @@
     </script>
     {% endif %}
     
-    <title>오늘쿠폰 타이틀</title>
+    <title>{% if page.title %}{{ page.title }}{% endif %}{{ site.theme_settings.title }}</title>
     <!-- seo tags -->
     {% seo %}
     <!-- Manual seo tags -->
