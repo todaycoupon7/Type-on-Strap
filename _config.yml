@@ -15,7 +15,7 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p>누구나 손쉽게 쿠폰 서비스를 이용하세요.</p>
+     <p>누구나 손쉽게 이용할 수 있는 쿠폰 서비스를 개발합니다.</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
@@ -50,7 +50,7 @@ theme_settings:
   disqus_shortname:
   katex: true # Enable if using math markup
   portfolio: false
-  search: true
+  search: false
   tags: true
   
   
