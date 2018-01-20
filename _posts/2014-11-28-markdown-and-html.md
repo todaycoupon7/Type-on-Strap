@@ -24,9 +24,11 @@ Highlighting for code in Jekyll is done using Pygments or Rouge. This theme make
 for (var i = 1; i <= 10; i++) {
     console.log(i);
 }
+{% endhighlight %}
 
 ![Image of a glass on a book]({{ site.baseurl }}/assets/img/pexels/book-glass.jpeg)
 
+{% highlight js %}
 // count to twenty
 var j = 0;
 while (j < 20) {
