@@ -25,6 +25,8 @@ for (var i = 1; i <= 10; i++) {
     console.log(i);
 }
 
+![Image of a glass on a book]({{ site.baseurl }}/assets/img/pexels/book-glass.jpeg)
+
 // count to twenty
 var j = 0;
 while (j < 20) {
