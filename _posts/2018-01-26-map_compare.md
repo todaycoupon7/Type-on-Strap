@@ -22,7 +22,9 @@ tags: [daum지도, naver지도, staticMap]
 
 다시 이것 저것 해보면서 궁리를 하던중에 Javascript를 통해서 표시된 이미지 URL의 parameter값을 변경하면 원하는 결과를 얻을 수 있다는 것을 확인하여 static Map 이미지를 구현 하였습니다.
 
-$$ http://map2.daum.net/map/imageservice?IW={WIDTH}&IH={HEIGHT}&MX={WCONG_X}&MY={WCONG_Y}&SCALE=2.5&COORDSTM=WCONGNAMUL $$
+~~~
+http://map2.daum.net/map/imageservice?IW={WIDTH}&IH={HEIGHT}&MX={WCONG_X}&MY={WCONG_Y}&SCALE=2.5&COORDSTM=WCONGNAMUL
+~~~
 
 그런데, 이번엔 static Map 화면으로 이동했다가 다시 지도 화면으로 돌아오면 daum 지도에서 화면을 refresh 합니다. 이건 여러가지 해보았지만 수정을 못했습니다. (혹시, 수정 방법을 아시는 분은 연락 부탁드려요..^^)
 
@@ -35,7 +37,9 @@ static Map 이미지 사용은 Naver에 Application 등록시에 '지도 (웹)' 
 
 static Map의 가이드는 Naver 지도 > 튜토리얼 > static Map 지도 시작하기 탭을 보시면 상세하게 가이드되어 있으니 참고하시면 될것 같습니다.
 
-$$ https://openapi.naver.com/v1/map/staticmap.bin?clientId={CLIENT_ID}&url={Application에 등록한 WEB URL}&crs=EPSG:4326&center={LONGITUDE},{LATITUDE}&level=13&w={WIDTH}&h={HEIGHT}&baselayer=default $$
+~~~
+https://openapi.naver.com/v1/map/staticmap.bin?clientId={CLIENT_ID}&url={Application에 등록한 WEB URL}&crs=EPSG:4326&center={LONGITUDE},{LATITUDE}&level=13&w={WIDTH}&h={HEIGHT}&baselayer=default
+~~~
 
 ## 결론
 개발의 편리성과 속도면에서 Daum 지도에 큰 점수를 줄 수 있을것 같지만, 화면 이동 후에 지도가 refresh가 되는 것은 다소 문제가 있어 보입니다. 반면, Naver 지도는 개발의 불편함(?)과 좀더 연구가 필요한 부분에 있어서 조금 고민을 하게 됩니다.
