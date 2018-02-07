@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 네이버 지도 검색시 자동완성 URL 이용하기
-tags: [naver, 네이버, 지도, map, 자동완성, autocomplete]
+title: 네이버 지도 검색시 자동 키워드 제안 URL 이용하기
+tags: [naver, 네이버, 지도, map, 키워드 제안, suggest, 자동완성, autocomplete]
 ---
 
 지도에서 검색을 하기 위해 키워드를 입력하는데, 이때 자동키워드 제안이 되어 자동완성 기능이 되면 좀더 스마트한 기능이 되기때문에 이를 구현하는 방법을 소개 드립니다.
@@ -17,7 +17,7 @@ tags: [naver, 네이버, 지도, map, 자동완성, autocomplete]
 위의 이미지와 같이 네이버 지도에서 자동 키워드 기능을 제공을 하고 있습니다. 텍스트 입력시에 자동 키워드 제안 호출 URL을 알수 있다면 이용할 수 있을 것 같다는 생각이 듭니다.
 
 
-크롬 브라우저에서 (네이버 지도)[https://map.naver.com/] 사이트로 이동합니다.
+크롬 브라우저에서 [네이버 지도](https://map.naver.com/) 사이트로 이동합니다.
 
 [보기] - [개발자 정보] - [개발자 도구] 를 선택하면 아래와 같은 화면을 확인하실수 있습니다.
 
@@ -42,5 +42,5 @@ General 항목에 Request URL 부분을 보면 URL을 확인할 수 있습니다
 위의 이미지를 보시면, 네이버 지도에서 나왔던 제안된 키워드 내용이 동일함을 확인하실 수 있습니다.
 
 
-안드로이드 앱은 github((map_search_autocomplete)[https://github.com/todaycoupon7/map_search_autocomplete])에 올려놓았으니 참고하시 분은 보시면 좋을 것 같습니다.
+안드로이드 앱은 github([map_search_autocomplete](https://github.com/todaycoupon7/map_search_autocomplete))에 올려놓았으니 참고하시 분은 보시면 좋을 것 같습니다.
 
