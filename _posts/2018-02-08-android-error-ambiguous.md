@@ -12,9 +12,7 @@ tags: [android, error, ambiguous, method, call, findViewById]
 ![android-error-ambiguous]({{ site.baseurl }}/assets/img/pexels/android-error-ambiguous.png)
 
 
-~~~
-Ambiguous method call. Both findViewById(int) in AppCompatActivity and findViewById(int) in Activity match
-~~~
+$$$ Ambiguous method call. Both findViewById(int) in AppCompatActivity and findViewById(int) in Activity match $$$
 
 
 에러 메시지로 구글링도 해서 이것저것 해보지만 해결이 되지 않았습니다.
