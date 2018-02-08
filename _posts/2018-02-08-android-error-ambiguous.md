@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [android - Error] Ambiguous method call. Both findViewById(int) in AppCompatActivity and findViewById(int) in Activity match
+title: Ambiguous method call. Both findViewById(int) in AppCompatActivity and findViewById(int) in Activity match
 tags: [android, error, ambiguous, method, call, findViewById]
 ---
 
